@@ -1,2 +1,2 @@
-# Microserviços_AspNetCore
- Sistema ecommerce desenvolvido em arquitetura de microserviços com banckend em asp net core e frontend asp net mvc e vue.js
+# sistema_gerenciamento_estoque
+ Sistema desenvolvido para genrenciar estoque de lojas ecommerce desenvolvido utilizando asp net core com apis distribuidas e frontend em frameworks js e blazor
