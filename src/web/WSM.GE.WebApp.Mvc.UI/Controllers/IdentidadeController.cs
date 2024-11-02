@@ -3,11 +3,10 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using WSM.GE.WebApp.Mvc.UI.Controllers;
 using WSM.GE.WebApp.Mvc.UI.Models;
 using WSM.GE.WebApp.Mvc.UI.Services;
 
-namespace WSM.GE.WebApp.Mvc.UIrg.Controllers
+namespace WSM.GE.WebApp.Mvc.UI.Controllers
 {
     public class IdentidadeController : MainController
     {
