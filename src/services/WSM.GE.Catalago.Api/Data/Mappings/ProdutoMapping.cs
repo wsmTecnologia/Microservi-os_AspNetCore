@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using WSM.GE.Catalago.API.Models;
+using NSE.Catalogo.API.Models;
 
-namespace WSM.GE.Catalago.API.Data.Mappings
+namespace WSM.GE.Catalago.Api.Data.Mappings
 {
     public class ProdutoMapping : IEntityTypeConfiguration<Produto>
     {
