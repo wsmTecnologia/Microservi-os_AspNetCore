@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using WSM.GE.Catalago.API.Models;
+using NSE.Catalogo.API.Models;
 
-namespace WSM.GE.Catalago.API.Controllers
+namespace WSM.GE.Catalago.Api.Controllers
 {
     [ApiController]
     [Authorize]
@@ -22,7 +22,7 @@ namespace WSM.GE.Catalago.API.Controllers
             return await _produtoRepository.ObterTodos();
         }
 
-        //[ClaimsAuthorize("Catalogo","Ler")]
+        //[ClaimsAuthorize("Catalogo", "Ler")]
         [HttpGet("catalogo/produtos/{id}")]
         public async Task<Produto> ProdutoDetalhe(Guid id)
         {

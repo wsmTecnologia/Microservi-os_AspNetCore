@@ -1,6 +1,6 @@
 ﻿using WSM.GE.Core.DomainObjects;
 
-namespace WSM.GE.Catalago.API.Models
+namespace NSE.Catalogo.API.Models
 {
     public class Produto : Entity, IAggregateRoot
     {

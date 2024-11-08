@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WSM.GE.Catalago.API.Data;
+using WSM.GE.Catalago.Api.Data;
 
-namespace WSM.GE.Catalago.API.Configuration
+namespace WSM.GE.Catalago.Api.Configuration
 {
     public static class ApiConfig
     {

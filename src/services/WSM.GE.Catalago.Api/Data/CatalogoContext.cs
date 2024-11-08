@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WSM.GE.Catalago.API.Models;
+using NSE.Catalogo.API.Models;
 using WSM.GE.Core.Data;
 
-namespace WSM.GE.Catalago.API.Data
+namespace WSM.GE.Catalago.Api.Data
 {
     public class CatalogoContext : DbContext, IUnitOfWork
     {
@@ -10,7 +10,7 @@ namespace WSM.GE.Catalago.API.Data
             : base(options) { }
 
         public DbSet<Produto> Produtos { get; set; }
-
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             foreach (var property in modelBuilder.Model.GetEntityTypes().SelectMany(

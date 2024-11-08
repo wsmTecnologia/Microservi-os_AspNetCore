@@ -1,6 +1,6 @@
 ﻿using WSM.GE.Core.Data;
 
-namespace WSM.GE.Catalago.API.Models
+namespace NSE.Catalogo.API.Models
 {
     public interface IProdutoRepository : IRepository<Produto>
     {

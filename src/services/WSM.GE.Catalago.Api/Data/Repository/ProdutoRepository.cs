@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WSM.GE.Catalago.API.Models;
+using NSE.Catalogo.API.Models;
 using WSM.GE.Core.Data;
 
-namespace WSM.GE.Catalago.API.Data.Repository
+namespace WSM.GE.Catalago.Api.Data.Repository
 {
     public class ProdutoRepository : IProdutoRepository
     {

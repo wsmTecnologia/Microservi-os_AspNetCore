@@ -1,8 +1,8 @@
-﻿using WSM.GE.Catalago.API.Data;
-using WSM.GE.Catalago.API.Data.Repository;
-using WSM.GE.Catalago.API.Models;
+﻿using NSE.Catalogo.API.Models;
+using WSM.GE.Catalago.Api.Data;
+using WSM.GE.Catalago.Api.Data.Repository;
 
-namespace WSM.GE.Catalago.API.Configuration
+namespace WSM.GE.Catalago.Api.Configuration
 {
     public static class DependencyInjectionConfig
     {
